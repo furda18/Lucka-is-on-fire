@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 void nacitaj(double *x, double *y){//aby sa zapametalo pouzijem pointer
-   // printf("Nacitaj dve cisla \n");
+    printf("Nacitaj dve cisla \n");
     scanf("%lf %lf", x, y); //ked ich nacitavam nemusim tam nic davat
     printf("%g %g\n", &x, &y);
 }
@@ -20,8 +20,9 @@ int main()
     char a;
 
 
+    printf("Zmena v maine :D \n");
     nacitaj(&x,&y); //tak im dam adresu
-    //printf("Zadaj operaciu co maju vykonavat:");
+    printf("Zadaj operaciu co maju vykonavat:");
     scanf("%s", &a);
 
     if(a == 's'){ obsah(x,y);
