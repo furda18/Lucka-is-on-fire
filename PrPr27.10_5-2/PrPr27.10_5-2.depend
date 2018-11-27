@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1540293867 source:c:\users\difo\desktop\prpr2.10\prpr27.10_5-2\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
