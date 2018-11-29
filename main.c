@@ -8,10 +8,10 @@ void nacitaj(double *x, double *y){//aby sa zapametalo pouzijem pointer
     scanf("%lf %lf", x, y); //ked ich nacitavam nemusim tam nic davat
     printf("%g %g\n", &x, &y);
 }
-double obvod(double x, double y){
+double obvod(double x, double y){ //asi tam nemaju vstupovat smerniky
     return (2*x + 2*y);
 }
-double obsah(double x, double y){
+double obsah(double x, double y){ //detto
     return (x*y);
 }
 int main()
